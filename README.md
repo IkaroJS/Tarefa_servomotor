@@ -83,6 +83,6 @@ pwm_set_gpio_level(LED_AZUL_PIN, azul);
    - O servo motor se moverá entre **0° e 180°**.
    - O LED RGB indicará a posição do servo com cores diferentes.
 
-   ## Vídeo de demonstração
-
-[Assistir Vídeo](https://drive.google.com/drive/folders/1_tlaEl3lV43GpqqIbEpfxhdka27jECuh?usp=sharing)
+**Vídeo de demonstração**
+Confira o funcionamento do projeto neste vídeo:
+[Demonstração do Projeto](https://drive.google.com/drive/folders/1_tlaEl3lV43GpqqIbEpfxhdka27jECuh?usp=sharing)
