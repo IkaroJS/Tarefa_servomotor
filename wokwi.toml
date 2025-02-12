@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build/Tarefa_servomotor.uf2'
+elf = 'build/Tarefa_servomotor.elf'

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "author": "Ikaro Silva",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-pi-pico-w", "id": "pico", "top": -12.85, "left": -73.25, "attrs": {} },
+    { "type": "wokwi-servo", "id": "servo1", "top": -30.8, "left": 57.6, "attrs": {} },
+    {
+      "type": "wokwi-rgb-led",
+      "id": "rgb1",
+      "top": 32.8,
+      "left": -142.9,
+      "attrs": { "common": "cathode" }
+    }
+  ],
+  "connections": [
+    [ "pico:GP0", "$serialMonitor:RX", "", [] ],
+    [ "pico:GP1", "$serialMonitor:TX", "", [] ],
+    [ "pico:GND.8", "servo1:GND", "black", [ "h0" ] ],
+    [ "pico:3V3", "servo1:V+", "red", [ "h29.11", "v-9.7" ] ],
+    [ "pico:GP22", "servo1:PWM", "blue", [ "h38.71", "v-67.4" ] ],
+    [ "pico:GP11", "rgb1:G", "green", [ "h-49.27", "v-38.4" ] ],
+    [ "rgb1:B", "pico:GP12", "blue", [ "h-0.3", "v67.16" ] ],
+    [ "rgb1:R", "pico:GP13", "red", [ "v76.8", "h67.2" ] ],
+    [ "rgb1:COM", "pico:GND.4", "black", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
