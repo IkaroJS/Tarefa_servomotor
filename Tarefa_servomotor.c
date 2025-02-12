@@ -2,10 +2,10 @@
 #include "hardware/pwm.h"
 #include <stdio.h>
 
-#define PINO_SERVO 22          // GPIO do servo
-#define PINO_LED_VERMELHO 13   // GPIO do LED Vermelho
-#define PINO_LED_VERDE 11      // GPIO do LED Verde
-#define PINO_LED_AZUL 12       // GPIO do LED Azul
+#define PINO_SERVO 22        
+#define PINO_LED_VERMELHO 13 
+#define PINO_LED_VERDE 11     
+#define PINO_LED_AZUL 12      
 
 #define MIN_PULSE_WIDTH 500    // 0 graus (500µs)
 #define MID_PULSE_WIDTH 1470   // 90 graus (1470µs)
